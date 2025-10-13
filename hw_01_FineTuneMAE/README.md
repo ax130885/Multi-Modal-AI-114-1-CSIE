@@ -38,3 +38,6 @@ Ablation Study b: Try different decoder dimension. Default=192, try=[96, 384].
 # confusion matrix & visual results will be saved in `pic/`
 bash run_ablation.sh
 ```
+
+# Reference Repo
+https://github.com/IcarusWizard/MAE?tab=readme-ov-file

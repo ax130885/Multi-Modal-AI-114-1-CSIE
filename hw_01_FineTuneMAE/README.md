@@ -1,7 +1,7 @@
 # Environment
 
 ```bash
-conda env create -f environmet.yml
+conda env create -f environmet.yml  # don't use requirements.txt (it is from ref repo)
 conda activate mae
 ```
 
@@ -41,3 +41,4 @@ bash run_ablation.sh
 
 # Reference Repo
 https://github.com/IcarusWizard/MAE?tab=readme-ov-file
+

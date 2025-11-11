@@ -1,7 +1,7 @@
 # Environment
 
 ```bash
-conda env create -f environmet.yml
+conda env create -f environmet.yml  # don't use requirements.txt (it is from ref repo)
 conda activate mae
 ```
 
@@ -38,3 +38,7 @@ Ablation Study b: Try different decoder dimension. Default=192, try=[96, 384].
 # confusion matrix & visual results will be saved in `pic/`
 bash run_ablation.sh
 ```
+
+# Reference Repo
+https://github.com/IcarusWizard/MAE?tab=readme-ov-file
+

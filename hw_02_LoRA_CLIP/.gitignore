@@ -1,0 +1,13 @@
+*.pth
+*.pt
+
+data/
+
+
+flowers102_lora_best/
+cub200_lora_best/
+
+__pycache__/
+__MACOSX/
+.DS_Store
+.conda

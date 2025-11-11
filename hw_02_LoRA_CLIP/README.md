@@ -33,17 +33,9 @@ The goal is to understand CLIP's performance in zero-shot settings and to compar
 To set up the development environment, follow these steps:
 
 1.  **Create and Activate Conda Environment:**
-    It is assumed that the `.conda` directory in the project root contains a pre-configured conda environment named `lora_clip`.
-    You can activate it using:
     ```bash
-    source /mnt/data1/graduate/yuxin/class/Multi-Modal-AI-114-1-CSIE/.conda/bin/activate
-    # Or, if 'conda' command is in your PATH:
-    # conda activate lora_clip
-    ```
-
-2.  **Install Dependencies:**
-    Once the environment is activated, install the required Python packages using the `requirements.txt` file:
-    ```bash
+    conda create -n lora_clip python=3.10
+    conda activate lora_clip
     pip install -r requirements.txt
     ```
 
